@@ -23,7 +23,7 @@ def apicall():
 
                 """
 
-                resp = requests.post(url, headers=headers, data=data)
+                resp = requests.post(url, headers=headers, data=data, verify=False)
                 data = resp.json()
                 print(data)
                 print(resp.status_code)
