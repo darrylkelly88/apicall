@@ -6,7 +6,7 @@ def apicall():
 
                 url = "https://aap.redhat.tdbsc.co.uk/api/v2/workflow_job_templates/13/launch"
 
-                PAT_token = "Bearer nsoNIspjEuAo8dwt2ZPYJqBXomADcC"
+                PAT_token = "###########"
 
                 headers = CaseInsensitiveDict()
                 headers["Authorization"] = PAT_token
